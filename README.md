@@ -20,8 +20,10 @@
   wizPassword='wiznotePassword'
  ```
 
- ### 执行test.py
+### 执行test.py
  linux 下直接cd 到wiznoteExporter ,然后执行`./test.py`即可
  windows 下你可能需要先安装python2.7 ,然后步骤同上.
  
 
+### screenshot
+ ![screenshort](Screenshot_2016-12-10_16-54-18.png)
