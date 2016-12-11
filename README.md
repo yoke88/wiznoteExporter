@@ -27,3 +27,12 @@
 
 ### screenshot
  ![screenshort](Screenshot_2016-12-10_16-54-18.png)
+
+### 其他手动办法
+
+其实wiznote的数据在本地有缓存,linux 放在`~/.wiznote/yourWiznoteAccountName/data/notes`目录下面,都是{GUID}的方式存放
+这些文件其实是zip文件,每个文件里面包含html ,图片以及元数据.
+
+元数据`meta.xml`包含了每个note的相关信息,如title,description
+
+当然如果你需要更详细的信息,你可能需要使用sqllite 等工具看下`~/.wiznote/yourWiznoteAccountName/data/index.db`文件
